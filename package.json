@@ -24,6 +24,13 @@
     "onLanguage:typescriptreact"
   ],
   "contributes": {
+    "commands": [
+      {
+        "title": "Fix all auto-fixable problems",
+        "category": "TSLint",
+        "command": "tslint.fixAllProblems"
+      }
+    ],
     "jsonValidation": [
       {
         "fileMatch": "tslint.json",
