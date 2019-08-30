@@ -26,7 +26,7 @@
   "contributes": {
     "commands": [
       {
-        "title": "Fix all auto-fixable problems",
+        "title": "Fix all auto-fixable problems 2",
         "category": "TSLint",
         "command": "tslint.fixAllProblems"
       }

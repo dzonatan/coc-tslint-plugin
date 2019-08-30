@@ -36,7 +36,7 @@ export async function activate(context: ExtensionContext): Promise<void> {
   }, null, subscriptions)
 
   let disposable = workspace.onWillSaveUntil(async ev => {
-    console.error('test mee!, autoFixOnSave);
+    //console.error('test mee!, autoFixOnSave);
     if (!autoFixOnSave) return
     let thenable = async () => {
       let { document } = ev
